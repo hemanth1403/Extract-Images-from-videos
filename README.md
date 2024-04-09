@@ -52,7 +52,9 @@ cv2.destroyAllWindows()
 ffmpeg -i input.mp4 -r 30/1 out-%03d.png
 ```
 -i -> Input
+
 -r -> switch to specify number of frames required for a second
+
 30/1 -> specifying 30 frames are required for 1 second video
 
 
