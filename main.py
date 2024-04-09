@@ -28,3 +28,7 @@ try:
     cv2.destroyAllWindows()
 except:
     print("Please check the format")
+
+# If the video file more than 200 mb then use this terminal command 
+# ffmpeg -i input.mp4 -r 30/1 out-%03d.png 
+    # (input)    (30 frames per second)
