@@ -47,5 +47,12 @@ while True:
 cap.release()
 cv2.destroyAllWindows()
 ```
+5. If the video file more than 200 mb then use this terminal command 
+```console
+ffmpeg -i input.mp4 -r 30/1 out-%03d.png
+```
+-i -> Input
+-r -> switch to specify number of frames required for a second
+30/1 -> specifying 30 frames are required for 1 second video
 
 
